@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="tsparticles"></div>
+
+  <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <header>
+    <h1>Hi, I'm <span class="typing-wrapper">Saurabh Kumar</span></h1>
+    <p>Web Developer | Designer | Creator</p>
+
+    <div class="social-icons">
+      <a href="https://github.com/Green-88" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/saurabh-kumar-317940315/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://x.com/Ar8Dev" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+  </header>
+
+  <section id="about" class="about">
+    <img src="photo/photo.png" alt="Your Photo">
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>Hi, I’m Saurabh Kumar, a passionate learner and aspiring developer. I enjoy creating websites and projects that combine creativity with logic, making ideas come to life through clean and efficient code. I believe in continuous learning, exploring new technologies, and challenging myself to grow every day. Beyond coding, I’m curious, adaptable, and always ready to take on new opportunities to make an impact.</p>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>SQL</li>
+      <li>Python</li>
+      <li>Effective Communicator</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="projects-section">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>MelodyPlayer</h3>
+        <p class="project-desc">A responsive web-based music player with sleek UI, real-time song progress, playlist management, and interactive controls for an enjoyable listening experience.</p>
+        <button onclick="window.open('https://green-88.github.io/MelodyPlayer/')">View</button>
+        <button onclick="window.open('https://github.com/Green-88/MelodyPlayer')" class="github-btn">
+          <i class="fab fa-github"></i> GitHub
+        </button>
+      </div>
+      <div class="project-card">
+        <h3>CollegeAttendance</h3>
+        <p class="project-desc">A web-based College Attendance Management System enabling teachers to mark attendance, track records, and view student history, all through an interactive and responsive interface.</p>
+        <button onclick="window.open('https://green-88.github.io/CollegeAttendance/')">View</button>
+        <button onclick="window.open('https://github.com/Green-88/CollegeAttendance')" class="github-btn">
+          <i class="fab fa-github"></i> GitHub
+        </button>
+      </div>
+      <div class="project-card">
+        <h3>collegeHelpdex</h3>
+        <p class="project-desc">A web-based College Helpdesk Portal allowing students to submit and track support tickets, while staff manage and resolve tickets efficiently using role-based authentication and LocalStorage.</p>
+        <button onclick="window.open('https://green-88.github.io/collegeHelpdex/')">View</button>
+        <button onclick="window.open('https://github.com/Green-88/collegeHelpdex')" class="github-btn">
+          <i class="fab fa-github"></i> GitHub
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="certificates" class="certificates">
+    <h2>Certificates</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Web Development Certificate</h3>
+        <p>Certified in Front-End Web Development by Simplilearn | SkillUp</p>
+        <button onclick="window.open('https://photos.app.goo.gl/RymfpyFEK48VMcVM8')">
+          <i class="fa fa-eye"></i> View
+        </button>
+      </div>
+
+      <div class="project-card">
+        <h3>SQL(Intermediate) Certificate</h3>
+        <p>Certified by HackerRank for mastering key SQL fundamentals.</p>
+        <button onclick="window.open('https://photos.app.goo.gl/Pp95CPTs97uRHnib8')">
+          <i class="fa fa-eye"></i> View
+        </button>
+      </div>
+
+      <div class="project-card">
+        <h3>Python (Basic) Certificate</h3>
+        <p>Certified by HackerRank for expertise in PYTHON concepts.</p>
+        <button onclick="window.open('https://photos.app.goo.gl/iY5KU1Q2svHawunPA')">
+          <i class="fa fa-eye"></i> View
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume" class="resume">
+    <h2>Resume</h2>
+    <p>You can download my resume by clicking the button below:</p>
+    <button onclick="window.open('files/CV.pdf', '_blank')">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>You can reach me at: <a href="mailto:adev8721@gmail.com">adev8721@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Saurabh Kumar. All rights reserved.</p>
+  </footer>
+
+  <div class="modal" id="projectModal">
+    <div class="modal-content">
+      <h3 id="modalTitle"></h3>
+      <p id="modalDesc"></p>
+      <button class="close-btn" onclick="closeModal()">Close</button>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
