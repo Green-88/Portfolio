@@ -16,7 +16,7 @@ This is where I showcase my projects, skills, and achievements.
 
 ## 🛠️ Tech Stack
 - **Frontend:** HTML, CSS, JavaScript  
-- **Frameworks/Libraries:** React.js / TailwindCSS (if used)  
+- **Frameworks/Libraries:** TailwindCSS
 - **Tools:** Git, GitHub, VS Code  
 
 ---
